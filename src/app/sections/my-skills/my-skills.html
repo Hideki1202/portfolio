@@ -1,0 +1,18 @@
+<h2>
+    My Skills
+</h2>
+<div id="skills">
+    <div id="skills-icon-grid">
+        <img
+        *ngFor="let skill of skills; let i = index"
+        [src]="skill.icon"
+        [alt]="skill.name"
+        [id]="skill.name"
+        (mouseenter)="selectSkill(i)"
+      />
+    </div>
+    <div id="skill-description">
+        <h1>{{ selectedSkill.name }}</h1>
+        <p>{{ selectedSkill.description }}</p>
+    </div>
+</div>
