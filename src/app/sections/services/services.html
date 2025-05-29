@@ -1,0 +1,8 @@
+<h2>Services</h2>
+<div id="box-cards" >
+    <app-service-card *ngFor="let card of servicesList"
+    [image]="card.image"
+    [title]="card.title"
+    [description]="card.description">
+  </app-service-card>
+</div>

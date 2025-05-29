@@ -56,9 +56,37 @@ img:hover{
     height: 60px;
     transition: all 100ms;
 }
-
-@media screen and (max-width: 1100px) {
+#separator{
+    background-color: rgb(41, 41, 41);
+    height: 15px;
+    width: 80%;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 300px;
+}
+@media screen and (max-width: 1098px) {
     h1{
       margin-top: 250px;  
     }
+    #separator{
+        background-color: rgb(41, 41, 41);
+        height: 15px;
+        width: 80%;
+        border-radius: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 600px;
+    }
 }
+@media screen and (max-width: 700px) {
+    #skill-description{
+        width: 70%;
+        margin-top: 45px;
+        
+    }
+
+    
+}
+
+

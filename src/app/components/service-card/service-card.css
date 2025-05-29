@@ -1,0 +1,44 @@
+#service-card{
+    background-color: #282828;
+    border-radius: 25px;
+    width: 85%;
+    height: 450px;
+    border-top-right-radius: 0px;
+    border-color: #5665C0;
+    border-top-left-radius: 0px;
+    transition: all 50ms;
+    padding-top: 25px;
+
+}
+#service-card:hover{
+    border-top: #5665C0 solid 6px;
+    transition: all 200ms;
+
+}
+img{
+    width: 70px;
+    height: 70px;
+}
+#title-image{
+    width: 60%;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+h3{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 25pt;
+    color: #5665C0;
+}
+p{
+    font-weight: 100;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 15pt;
+
+}
